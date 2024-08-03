@@ -1,13 +1,13 @@
-package Livro;
+package app.entity;
 
 public class Livro {
     private Long id;
     private String titulo;
     private String autor;
-    private String editora;
+    private Editora editora;
     private int ano;
 
-    public Livro(Long id, String titulo, String autor, String editora, int ano) {
+    public Livro(Long id, String titulo, String autor, Editora editora, int ano) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
@@ -39,11 +39,11 @@ public class Livro {
         this.autor = autor;
     }
 
-    public String getEditora() {
+    public Editora getEditora() {
         return editora;
     }
 
-    public void setEditora(String editora) {
+    public void setEditora(Editora editora) {
         this.editora = editora;
     }
 

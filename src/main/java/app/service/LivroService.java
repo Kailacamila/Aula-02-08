@@ -1,6 +1,7 @@
 package app.service;
 
-import com.exemplo.livroscrud.model.Livro;
+
+import app.entity.Livro;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -10,7 +11,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Service
 
-public class livroservice {
+public class LivroService {
 	 private List<Livro> livros = new ArrayList<>();
 	    private AtomicLong counter = new AtomicLong();
 

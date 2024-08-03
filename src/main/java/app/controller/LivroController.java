@@ -1,7 +1,7 @@
 package app.controller;
 
-import com.exemplo.livroscrud.model.Livro;
-import com.exemplo.livroscrud.service.LivroService;
+import app.entity.Livro;
+import app.service.LivroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
